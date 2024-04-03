@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "stripe_app.apps.StripeAppConfig",
-    "posrtone_app.apps.PostoneAppConfig",
+    "portone_app.apps.PortoneAppConfig",
 ]
 
 MIDDLEWARE = [
