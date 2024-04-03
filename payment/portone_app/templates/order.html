@@ -1,0 +1,26 @@
+{% load static %} <!-- new -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>django_portone checkout page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- 포트원 결제 -->
+    <script src="https://cdn.iamport.kr/v1/iamport.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+    <!-- iamport.payment.js -->
+    <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.2.0.js"></script>
+    <!-- 포트원 결제 -->
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <button class="button" id="payment">구매하기</button>
+      <script src = 'payment.js'></script>
+    </div>
+  </section>
+  </body>
+</html>
